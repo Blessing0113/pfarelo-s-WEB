@@ -1,0 +1,155 @@
+body{
+    /* background-color: aqua; */
+    /* background-image: url(../body/pics/markus-spiske-kK7uPfb2YWU-unsplash.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* filter: blur(10px); */
+
+    margin: 0;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../body/pics/markus-spiske-kK7uPfb2YWU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: blur(5px); /* Adjust the blur amount as needed */
+    z-index: -1;
+}
+
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(155, 240, 214, 0.5); /* Adjust the alpha value for darkness */
+    z-index: -1;
+}
+
+
+/* .overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: black;
+} */
+
+
+.top-navi{
+    background-color: grey;
+    height: 10px; 
+    width: 96%;
+    text-align: center;
+    position: relative;
+    margin: 0; 
+    padding: 25px;
+    margin-top: 5px;
+    border-radius: 100px;
+    margin-left: 5px;
+    
+}
+
+ul{
+    float: right;
+}
+
+.middle-h1{
+    color: rgb(91, 102, 47);
+}
+
+.nv{
+   float: left; 
+}
+
+.h1-div{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+    backface-visibility: inherit;
+    padding-top: 185px;
+}
+/* div{
+
+} */
+
+.listdiv{
+    display: block;
+    color: brown;
+    text-align: center;
+    padding-right: 35%;
+    list-style-type: none;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+/* .menu{
+   list-style-type: nONE; Remove the bullet points
+   display: inline-flex;
+   text-align:right;
+   padding: 14px 16px; 
+   margin-bottom: 0px;
+   position: relative;
+} */
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.menu li:last-child {
+    margin-right: 0; 
+}
+
+.menu li a {
+    display: block;
+    color: black; 
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    background-color: #839da0; 
+    border-radius: 50px;
+    height: 15px;
+}
+
+.buttons{
+    margin-top: 400px;
+    margin-left: 10px;
+    
+}
+
+.but{
+    border: none;
+    border-radius: 60px;
+    background-color: greenyellow;
+}
+
+.but:hover{
+    background-color: #555;
+}
